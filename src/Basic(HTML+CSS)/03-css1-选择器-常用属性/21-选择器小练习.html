@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>选择器小练习</title>
+</head>
+<style type="text/css">
+	.ft30{
+		font-size: 30px;
+	}}
+	p{
+		color: #0F0;
+	}
+	.red{
+		color: #F00;
+	}
+	/*用多个类名选择同一个元素*/
+	/*.ft30.red{
+		text-decoration: underline;
+	}*/
+	/*标签加类名选择同一个元素*/
+	div.ft30.red{/*不需要空格啥的*/
+		text-decoration: underline;
+	}
+</style>
+<body>
+<div class="ft30 red">这是一个小盒子</div>
+<span class="ft30 red">我是文本</span>
+<p class="ft30">段落部分</p>
+<a  class="ft30" href="#">我是超链接</a>
+<b>我是红色</b>
+<div>普通盒子</div>
+</body>
+</html>
